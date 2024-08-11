@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/mwtutech/mwtu-Md1  /root/Mwtu_BOt
-WORKDIR /root/Mwtu_Bot/
+RUN git clone https://github.com/mwtutech/mwtu-Md1  /root/Flash_BOt
+WORKDIR /root/Flash_Bot/
 
 
 COPY package.json .
@@ -22,4 +22,3 @@ COPY . .
 EXPOSE 5000
 
 CMD ["npm", "run" , "mwtu♡♡♡"]
-
