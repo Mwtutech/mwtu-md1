@@ -30,7 +30,7 @@ CHATBOT: process.env.CHAT_BOT || "on",
 //    ADM : process.env.ANTI_DELETE_MESSAGE || 'off',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
-        ? "postgresql://flashmd_user:JlUe2Vs0UuBGh0sXz7rxONTeXSOra9XP@dpg-cqbd04tumphs73d2706g-a/flashmd" : "postgresql://flashmd_user:JlUe2Vs0UuBGh0sXz7rxONTeXSOra9XP@dpg-cqbd04tumphs73d2706g-a/flashmd",
+        ? "postgresql://flashmd_user:JlUe2Vs0UuBGh0sXz7rxONTeXSOra9XP@dpg-cqbd04tumphs73d2706g-a/mwtumd" : "postgresql://mwtumd_user:JlUe2Vs0UuBGh0sXz7rxONTeXSOra9XP@dpg-cqbd04tumphs73d2706g-a/flashmd",
     /* new Sequelize({
      dialect: 'sqlite',
      storage: DATABASE_URL,
